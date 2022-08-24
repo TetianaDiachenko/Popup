@@ -72,7 +72,8 @@ body {
 
 .header__logo:focus-within,
 .header__item:focus-within,
-.popup li:focus-within {
+.popup li:focus-within,
+.more__check:focus ~ .popup__mbtn {
     outline: 1px solid blue;
 }
 
@@ -173,7 +174,6 @@ body {
     .header__logo {
         margin-left: 30px;
     }
-
 }    
 
 @media screen and (max-width: 384px) {
